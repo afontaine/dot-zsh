@@ -15,9 +15,15 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
+ZSH_TMUX_AUTOSTART=true
+ZSH_TMUX_AUTOCONNECT=true
+ZSH_TMUX_AUTOQUIT=true
+
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir vcs)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(vi_mode status history time)
 
 source ./antigen/antigen.zsh
 
 source ./.zsh/plugins
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
