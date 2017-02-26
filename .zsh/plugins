@@ -1,6 +1,6 @@
-source ~/.zsh/oh-my-zsh
+source ~/.zsh/prezto
 
-source ~/.zsh//zsh-users
+source ~/.zsh/zsh-users
 
 antigen theme bhilburn/powerlevel9k powerlevel9k
 

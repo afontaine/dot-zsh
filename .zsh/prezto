@@ -1,0 +1,47 @@
+# git
+
+zstyle ':prezto:module:git:status:ignore' submodules 'untracked'
+
+# pacman
+
+zstyle ':prezto:module:pacman' frontend 'pacaur'
+zstyle ':prezto:module:pacman' color 'yes'
+
+# ssh
+
+zstyle ':prezto:module:ssh:load' identities 'id_rsa'
+
+# terminal
+
+zstyle ':prezto:module:terminal' auto-title 'yes'
+
+# tmux
+
+zstyle ':prezto:module:tmux:auto-start' local 'yes'
+zstyle ':prezto:module:tmux:auto-start' remote 'yes'
+
+# utility
+
+zstyle ':prezto:module:utility:ls' color 'yes'
+zstyle ':prezto:module:utility:diff' color 'yes'
+zstyle ':prezto:module:utility:wdiff' color 'yes'
+zstyle ':prezto:module:utility:make' color 'yes'
+
+
+antigen use prezto
+
+antigen bundle sorin-ionescu/prezto modules/helper
+
+antigen bundle sorin-ionescu/prezto modules/command-not-found
+antigen bundle sorin-ionescu/prezto modules/editor
+antigen bundle sorin-ionescu/prezto modules/git
+antigen bundle sorin-ionescu/prezto modules/gpg
+antigen bundle sorin-ionescu/prezto modules/node
+antigen bundle sorin-ionescu/prezto modules/pacman
+antigen bundle sorin-ionescu/prezto modules/ruby
+antigen bundle sorin-ionescu/prezto modules/ssh
+antigen bundle sorin-ionescu/prezto modules/syntax-highlighting
+antigen bundle sorin-ionescu/prezto modules/terminal
+antigen bundle sorin-ionescu/prezto modules/tmux
+antigen bundle sorin-ionescu/prezto modules/utility
+
