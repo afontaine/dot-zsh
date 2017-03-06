@@ -1,4 +1,4 @@
-source ./.zsh/base16-monokai.dark.sh
+source ~/.zsh/base16-monokai.dark.sh
 
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
@@ -7,8 +7,6 @@ SAVEHIST=1000
 
 ZSH_CACHE_DIR=~/.zsh-cache
 mkdir -p $ZSH_CACHE_DIR
-
-export TERM=xterm-256color
 
 bindkey -v
 # End of lines configured by zsh-newuser-install
@@ -23,10 +21,10 @@ POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir vcs)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(vi_mode status history time)
 
 
-source ./antigen/antigen.zsh
+source ~/antigen/antigen.zsh
 
 
-source ./.zsh/plugins
+source ~/.zsh/plugins
 
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
