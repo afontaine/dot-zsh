@@ -8,8 +8,6 @@ SAVEHIST=1000
 ZSH_CACHE_DIR=~/.zsh-cache
 mkdir -p $ZSH_CACHE_DIR
 
-export TERM=xterm-256color
-
 bindkey -v
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
